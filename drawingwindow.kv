@@ -1,0 +1,41 @@
+<CanvasExample>:
+    canvas:
+        Line:
+            id: battery
+            rectangle: (400,500,100,50)
+            width: 2
+
+        #Bezier:
+            #segments: 150
+            #points: [10,500,20,50]
+            #dash_length: 100
+            #dash_offset: 0
+
+        #Ellipse:
+            #angle_start: -90
+            #angle_end: 90
+
+        Line:
+            bezier: (0,0,400,400)
+
+
+
+    Label:
+        id: lbl
+        text: "0"
+        size: 100,100
+        font_size: 250
+        font_name:"sevenSegment"
+
+    Button:
+        id: gas
+        size: 100,100
+        text: "go"
+
+    Button:
+        id: brake
+        size: 100,100
+        text: "stop"
+
+
+
